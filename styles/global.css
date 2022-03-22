@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito:wght@600&display=swap');
+@font-face {
+	font-family: "EB Garamond";
+	src: url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+}
+
+@font-face {
+	font-family: "Arvo";
+	src: url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+.font-logo {
+	font-family: 'Caveat', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+
+.st0{fill:#8247E5;}
+
+/* .bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+} */
+.bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+ 
+ .customcss {
+	transition: 0.3s ease-out;
+	box-shadow: 15px 22px 15px 0px rgba(0, 0, 0, 0.69);
+	-webkit-box-shadow: 15px 22px 15px 0px rgba(0, 0, 0, 0.69);
+	-moz-box-shadow: 15px 22px 15px 0px rgba(0, 0, 0, 0.69);
+
+ }
+ .customcss:hover {
+	transform: translate(-1%, -2%);
+    background-color: #c8d3e9;
+ }
+
+ .glass {
+	background: rgba( 255, 255, 255, 0.4 );
+	box-shadow: 0 2px 12px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 11.5px );
+	-webkit-backdrop-filter: blur( 16.5px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+ }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
